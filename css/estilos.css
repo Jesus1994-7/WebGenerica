@@ -1,0 +1,86 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, 
+pre, code, address, variable, form, fieldset, blockquote {
+    
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; 
+}
+   /* Fin de Reset de css */
+
+body {
+    color: white;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg);
+}
+   
+#titulo {
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: crimson;
+    background-color: rgb(119, 115, 110);
+    /*Degradado*/
+    background: -webkit-linear-gradient(top, rgba(179,215,234,1) 0%,
+     rgba(113,194,234,0.88) 50%,
+     rgba(36,164,219,0.88) 51%,
+      rgba(179,215,234,0.76) 100%);
+
+    padding: 30px;
+    text-shadow: 2px 2px 8px #dc143c;
+    
+}
+#menu{
+    background: darkblue;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid yellowgreen;
+
+}
+.items {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.items a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: yellowgreen;
+}
+
+#sobre_mi {
+    font-family: Lora, 'Times New Roman', Times, serif;
+    margin: 20px 20px;
+}
+#paginas {
+    margin: 20px 20px;
+}
+#google{
+    width: 200px;
+    height: 200px;
+}
+#twitter{
+    width: 200px;
+    height: 200px;
+}
+#xiaomi {
+    width: 200px;
+    height: 200px;
+}
+#contacto {
+    margin: 20px 20px;
+    margin-top: 15px;
+}
